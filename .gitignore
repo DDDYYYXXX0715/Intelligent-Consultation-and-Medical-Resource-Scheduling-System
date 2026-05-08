@@ -1,0 +1,35 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境（假设你的环境文件夹叫 venv 或者 hospital_env）
+venv/
+env/
+hospital_env/
+
+# 忽略 VS Code 的设置
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# 忽略巨无霸数据和模型
+medical.json
+medical_ner_model_final/
+*.pth
+*.bin
+*.safetensors
+
+# 忽略 Python 虚拟环境和缓存
+venv/
+.venv/
+__pycache__/
+*.pyc
+# 忽略所有大模型权重和数据集
+medical.json
+medical_ner_model_final/
+*.pth
+*.bin
+*.safetensors
+__pycache__/
